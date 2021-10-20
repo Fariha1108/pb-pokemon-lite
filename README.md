@@ -12,7 +12,7 @@ Create a new index.js file.
 let lightning = new AttackSkill("lightning", 40, 30);
 ```
 These numbers don't have to be correct or correspond to the real Pokemon numbers at all - you can just make them up.
-* A pokemon has no skills when created. It has to use the method learnAttackSkill to learn a new skill. learnAttackSkill should take an attack object as an argument. The specific attacks should be created using the attackSkill constructor function, and then internally added to that Pokemon's 'skills' array. Here is an example of first creating a skill, then adding it to a Pokemon: 
+* A pokemon has no skills when created. It has to use the method C to learn a new skill. learnAttackSkill should take an attack object as an argument. The specific attacks should be created using the attackSkill constructor function, and then internally added to that Pokemon's 'skills' array. Here is an example of first creating a skill, then adding it to a Pokemon: 
 ```javascript
 let lightning = new AttackSkill("lightning", 40, 30); 
 pikachu.learnAttackSkill(lightning);
